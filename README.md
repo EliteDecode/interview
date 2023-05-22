@@ -1,70 +1,28 @@
-# Getting Started with Create React App
+Task: Create a web application that fetches data from an API and displays it in a table. The application should also allow the user to search and filter the data.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Requirements:
 
-## Available Scripts
+    The application should be built using ReactJS and Redux.
+    The API endpoint to fetch data from is https://jsonplaceholder.typicode.com/users. Fetch the data when the application loads.
+    Display the data in a table with the following columns: Name, Username, Email, Phone, and Website.
+    The table should have pagination that allows the user to navigate through the data.
+    The user should be able to search for data by entering a search term in an input field. The search should be performed on the Name and Username columns only.
+    The user should be able to filter the data by selecting a value from a dropdown list. The dropdown list should have the following options: All, Male, and Female. Filtering should be performed on the Gender column.
+    The user should be able to clear the search term and filter by clicking on a "Clear" button.
+    The application should have a clean and responsive design.
 
-In the project directory, you can run:
+Bonus:
 
-### `npm start`
+    Implement client-side sorting of the table data.
+    Implement server-side pagination and sorting.
+    Add tests for your components and reducers.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+Notes:
+You can use any UI library or CSS framework you like, or write your own styles.
+You don't need to use any specific libraries for search or filtering, but you should be able to explain how your implementation works.
+You can use any testing framework you like, or write your own tests.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+Submission
 
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Please submit your code as a GitHub repository with a README file explaining how to run your tests.
+Good luck!
